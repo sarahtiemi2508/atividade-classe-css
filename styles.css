@@ -1,0 +1,46 @@
+/* Siga as orientações no arquivo README para concluir o exercício */
+
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: greenyellow;
+}
+.cabecalho{
+    background-color: rgb(159, 71, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tituloPrinc{
+    color: white;
+    font-weight: bold;
+    font-size: 32px; 
+}
+
+.subtitulo{
+    color: black;
+}
+
+.conteudo{
+    background-color: white;
+}
+.conteudo h1{
+    color: blueviolet;
+}
+.conteudo p{
+    color: palevioletred ;
+}
+
+/* DESAFIO */
+.conteudo p{
+    color: #E4005A ;
+    font-size: 42px;
+}
+
+/* DESAFIO PLUS */
+.conteudo p:nth-of-type(3) {
+    color: purple;
+    text-decoration: underline;
+}
+
+/* DESAFIO PLUS2 */
